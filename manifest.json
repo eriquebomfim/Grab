@@ -1,0 +1,16 @@
+{
+	"name" 			: "Grab",
+	"description"	: "Grab page content up-down (press CTRL to enable/disable)",	
+	"manifest_version" : 2,
+	"version"		: "2.0",
+	"permissions"	: [
+		"tabs", "http://*/*", "https://*/*"
+	],
+	"background" : {
+		"scripts" : ["background.js"]
+	},
+	"icons":{
+		"16" : "mouse-16.png",
+		"128" : "mouse-128.png"
+	}
+}
